@@ -47,12 +47,12 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/Barista.png" alt="">
       </div>
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque debitis incidunt qui ipsum sed doloremque a molestiae in veritatis ullam similique sunt aliquam dolores dolore? Quasi atque debitis nobis!</p>
+         <p>Customers value the ability to browse and purchase products from anywhere, saving time and effort. The extensive product range, detailed descriptions, and customer reviews help in making informed decisions, while competitive pricing adds to the appeal. The seamless online ordering process, secure payment options, and reliable delivery enhance satisfaction. Personalized experiences through tailored recommendations and promotions further boost customer engagement.<br>
          <a href="menu.html" class="btn">our menu</a>
       </div>
 
