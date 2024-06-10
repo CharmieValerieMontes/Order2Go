@@ -40,7 +40,7 @@ if(!isset($admin_id)){
    <div class="box-container">
 
    <div class="box">
-      <h3>welcome!</h3>
+      <h3>Welcome!</h3>
       <p><?= $fetch_profile['name']; ?></p>
       <a href="update_profile.php" class="btn">update profile</a>
    </div>
@@ -91,7 +91,7 @@ if(!isset($admin_id)){
          $numbers_of_products = $select_products->rowCount();
       ?>
       <h3><?= $numbers_of_products; ?></h3>
-      <p>products added</p>
+      <p>Products added</p>
       <a href="products.php" class="btn">see products</a>
    </div>
 
@@ -102,7 +102,7 @@ if(!isset($admin_id)){
          $numbers_of_users = $select_users->rowCount();
       ?>
       <h3><?= $numbers_of_users; ?></h3>
-      <p>users accounts</p>
+      <p>Users accounts</p>
       <a href="users_accounts.php" class="btn">see users</a>
    </div>
 
@@ -113,7 +113,7 @@ if(!isset($admin_id)){
          $numbers_of_admins = $select_admins->rowCount();
       ?>
       <h3><?= $numbers_of_admins; ?></h3>
-      <p>admins</p>
+      <p>Admins</p>
       <a href="admin_accounts.php" class="btn">see admins</a>
    </div>
 
