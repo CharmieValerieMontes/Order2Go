@@ -52,8 +52,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Customers value the ability to browse and purchase products from anywhere, saving time and effort. The extensive product range, detailed descriptions, and customer reviews help in making informed decisions, while competitive pricing adds to the appeal. The seamless online ordering process, secure payment options, and reliable delivery enhance satisfaction. Personalized experiences through tailored recommendations and promotions further boost customer engagement.<br>
-         <a href="menu.html" class="btn">our menu</a>
+         <p>Customers value the ability to browse and purchase products from anywhere, saving time and effort. 
       </div>
 
    </div>
@@ -73,32 +72,22 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>choose order</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+   
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>Pick Up</h3>
-         <p>Pick up your Order.</p>
       </div>
 
       <div class="box">
          <img src="images/step-3.png" alt="">
          <h3>Enjoy your DRINKS</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
       </div>
 
    </div>
 
 </section>
-
-<!-- steps section ends -->
-
-<!-- reviews section starts  -->
-
-<!-- reviews section ends -->
-
-
 
 
 

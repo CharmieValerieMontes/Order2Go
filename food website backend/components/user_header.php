@@ -1,9 +1,9 @@
 <?php
-if(isset($message)){
-   foreach($message as $message){
+if (isset($message)) {
+   foreach ($message as $message) {
       echo '
       <div class="message">
-         <span>'.$message.'</span>
+         <span>' . $message . '</span>
          <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
       </div>
       ';
@@ -15,8 +15,10 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a href="home.php" class="logo">ORDER2GO</a>
-
+      <div class="icons">
+         <div id="user-btn" class="fas fa-user"></div>
+         <a href="home.php" class="logo">ORDER2GO</a>
+      </div>
       <nav class="navbar">
          <a href="home.php">Home</a>
          <a href="about.php">About</a>
@@ -27,18 +29,18 @@ if(isset($message)){
 
       <div class="icons">
          <?php
-            $count_cart_items = $conn->prepare("SELECT * FROM `cart` WHERE user_id = ?");
-            $count_cart_items->execute([$user_id]);
-            $total_cart_items = $count_cart_items->rowCount();
+         $count_cart_items = $conn->prepare("SELECT * FROM `cart` WHERE user_id = ?");
+         $count_cart_items->execute([$user_id]);
+         $total_cart_items = $count_cart_items->rowCount();
          ?>
-         <a href="search.php"><i class="order2go-search"></i></a>
-         <a href="cart.php"><i class="order2go-shopping-cart"></i><span>(<?= $total_cart_items; ?>)</span></a>
-         <div id="user-btn" class="order2go-user"></div>
-         <div id="menu-btn" class="order2go-bars"></div>
+         <a href="search.php"><i class="fas fa-search"></i></a>
+         <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_items; ?>)</span></a>
+         <div id="menu-btn" class="fas fa-bars"></div>
       </div>
 
-    
+
+
+
    </section>
 
 </header>
-
