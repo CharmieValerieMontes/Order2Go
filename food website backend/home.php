@@ -86,6 +86,7 @@ include 'components/add_cart.php';
 
 <section class="category">
 
+
    <h1 class="title">Affiliated Shop</h1>
 
    <div class="box-container">
