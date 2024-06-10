@@ -27,7 +27,7 @@ if(isset($message)){
             <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
          </div>
          <p class="account">
-            <a href="login.php">login</a> or
+            <a href="login.php">login</a> 
             <a href="register.php">register</a>
          </p> 
          <?php
@@ -39,9 +39,11 @@ if(isset($message)){
           }
          ?>
       </div>
-
-
+      <div class="icons">  
+         <div id="user-btn" class="fas fa-user"></div>
+       
       <a href="home.php" class="logo">ORDER2GO</a>
+      </div> 
 
       <nav class="navbar">
          <a href="home.php">Home</a>
@@ -59,7 +61,6 @@ if(isset($message)){
          ?>
          <a href="search.php"><i class="fas fa-search"></i></a>
          <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_items; ?>)</span></a>
-         <div id="user-btn" class="fas fa-user"></div>
          <div id="menu-btn" class="fas fa-bars"></div>
       </div>
 
