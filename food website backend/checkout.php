@@ -126,10 +126,11 @@ if(isset($_POST['submit'])){
       <a href="update_address.php" class="btn">update address</a>
       <select name="method" class="box" required>
          <option value="" disabled selected>select payment method --</option>
-         <option value="cash on delivery">cash on delivery</option>
+         <option value="cash on delivery">pay upon pickup</option>
          <option value="credit card">credit card</option>
-         <option value="paytm">paytm</option>
-         <option value="paypal">paypal</option>
+         <option value="paytm">Maya</option>
+         <option value="paypal">Paypal</option>
+         <option value="paypal">Gcash</option>
       </select>
       <input type="submit" value="place order" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" style="width:100%; background:var(--red); color:var(--white);" name="submit">
    </div>

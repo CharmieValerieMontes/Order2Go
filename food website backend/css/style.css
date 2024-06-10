@@ -6,7 +6,7 @@
    --black:#222;
    --light-color:#777;
    --border:.2rem solid var(--black);
-   background-color:rgb(255, 235, 184);;
+   background-color:rgb(255, 235, 184);
 }
 
 *{
@@ -731,6 +731,7 @@ section{
    flex-wrap: wrap;
    gap:1.5rem;
    align-items: flex-start;
+   background-color: #fff;
 }
 
 .orders .box-container .box{
