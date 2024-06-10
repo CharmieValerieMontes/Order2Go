@@ -47,7 +47,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>Top Products</span>
                <h3>Dark Chocolate Frappee</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
                <img src="images/b4.png" alt="">
