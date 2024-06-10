@@ -53,6 +53,10 @@ if(isset($_POST['submit'])){
 <?php include 'components/user_header.php'; ?>
 <!-- header section ends -->
 
+<div class="image">
+            <center><img src="images/Logo.png" alt=""></center>
+            </div>
+
 <section class="form-container">
 
    <form action="" method="post">
