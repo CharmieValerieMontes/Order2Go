@@ -46,7 +46,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Top Products</span>
-               <h3>Okinawa</h3>
+               <h3>Dark Chocolate Frappee</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
@@ -57,7 +57,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>Top Products</span>
-               <h3>Don Darko</h3>
+               <h3>Strawberry Frappe</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
