@@ -6,7 +6,7 @@
    --black:#222;
    --light-color:#777;
    --border:.2rem solid var(--black);
-   background-color: #fed330;
+   background-color:rgb(255, 235, 184);;
 }
 
 *{
@@ -320,7 +320,7 @@ section{
 }
 
 .category .box-container .box:hover{
-   background-color: var(--black);
+   background-color: var(--yellow);
 }
 
 .category .box-container .box:hover img{
